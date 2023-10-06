@@ -34,7 +34,7 @@ public class User implements Serializable {
 	
 	@Enumerated(EnumType.STRING)
 	Role role; 
-	
+//update user
 	public User() {	}
 
 	public User(String firstName, String lastName, Date dateNaissance, Role role) {
